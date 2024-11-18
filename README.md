@@ -29,3 +29,7 @@ GPL
 <br>
 
 21sunrin117@sunrint.hs.kr
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/eab1148e-ea12-4754-92dc-a9d1e01da63c">
