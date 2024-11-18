@@ -2,6 +2,12 @@
 <p align="justify">
   백앤드 개발자가 되기 위한 첫번째 발걸음
 </p>
+
+<p align="center">
+
+<img src="https://github.com/user-attachments/assets/ce20da24-cd64-416c-82af-cf0301234b7e">
+
+</p>
 <br>
 
 ## 기술 스택
