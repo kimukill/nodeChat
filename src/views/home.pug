@@ -1,0 +1,67 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Talk 
+    link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+    style.
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+        #messages {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            height: calc(60vh - 200px);
+            overflow-x: hidden;
+        }
+        #messages li {
+            margin: 5px 20px;
+            padding: 5px;
+            width: fit-content;
+            max-width: 500px;
+            align-self: flex-start;
+            text-align: left;
+            word-wrap: break-word;
+            border-radius: 1000000px;
+            border: 1px solid rgba(0,0,0,0.2) ;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #messages li.my-message {
+            align-self: flex-end;
+            margin-right: 0;
+            text-align: right;            
+            border: 1px solid rgba(0,0,0,0.0) ;
+            background-color: #0097fc;
+            color: white;
+        }
+        #messageForm {
+            align-self: center;
+            width: 100%;
+            max-width: 500px;
+        }
+  body
+    header 
+      h1 notworking
+    main 
+      ul#messages
+      form(id="messageForm", onsubmit="sendMessage(event)")
+        input(type="text", id="messageInput", placeholder="", onfocus="this.value=''", autofocus)
+        button(type="submit") send
+    script(src="/socket.io/socket.io.js")
+    script(src="/public/js/app.js")
