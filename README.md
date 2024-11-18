@@ -10,7 +10,7 @@
 </p>
 <br>
 
-## 기술 스택
+## 사용 스택
 
 JavaScript, socket.io, Pug, Node.js
 <br>
