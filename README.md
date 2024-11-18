@@ -1,4 +1,4 @@
-# nodechat
+# nodeChat
 <p align="justify">
   백앤드 개발자가 되기 위한 첫번째 발걸음
 </p>
