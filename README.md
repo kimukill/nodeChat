@@ -32,4 +32,4 @@ GPL
 
 <br>
 
-<img src="https://github.com/user-attachments/assets/eab1148e-ea12-4754-92dc-a9d1e01da63c">
+<img src="https://github.com/user-attachments/assets/9de212a2-fd8c-4df5-8478-fe561cae8924">
